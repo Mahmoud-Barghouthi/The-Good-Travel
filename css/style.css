@@ -1,0 +1,140 @@
+
+body{
+    background-image: url("../Img/background.png");
+}
+
+#header {
+    background-color: rgba(202, 240, 251, 255);
+    margin-bottom: 50px;
+}
+
+#logo {
+    /* float: left; */
+    width: 8%;
+}
+
+h1 {
+    /* text-align: center; */
+    float: right;
+    padding-right: 800px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+/* Left-Table */
+
+.fields {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+
+
+#lField {
+    text-align: center;
+    background-color: #5d4b7696;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: larger;
+    float: left;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-right: 1500px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+
+.text{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-family: 'Righteous', cursive;
+    padding-left: 25px;
+}
+.text1{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.text2{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 115px;
+    font-family: 'Righteous', cursive;
+
+}
+
+#submit{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-right: 115px; */
+    /* font-family: 'Righteous', cursive; */
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #5d4b7696;
+    text-align: center;
+}
+
+
+/* Right-Table */
+
+#rField {
+    background-color: #fffdfe88;
+    font-family: 'Righteous', cursive;
+    border: 1px solid;
+    padding-top: 33px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5d4b7696;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+
+.pic1 {
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 135px;
+    padding-bottom: 20px;
+}
+
+ table tr td p{
+    color: black;
+    padding
+    
+}
+
+
+.test{
+    background-color: #fffdfe88
+    
+
+}
+
+/* Table */   
+/* table {
+  border: 1px solid ;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5d4b7696;
+  color: white;
+  
+} */

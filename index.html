@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Travel Home Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <img src="Img/logo.gif" id="logo">
+        <h1>
+            The Good Travel
+        </h1>
+
+    </div>
+    <!-- <p> Place Name</p> -->
+    <div class="fields">
+        <field id="lField">
+            <form action="/action_page.php">
+                <label for="pName">Place Name</label><br>
+                <input type="text" id="pName" name="pName" class="text" placeholder="Europe">
+                <br>
+                <br>
+
+
+
+                <label for="tPlace">Trip Place</label><br>
+                <select type="text" id="tPlace" name="tPlace" class="text1" placeholder="car">
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Vienna">Vienna</option>
+                    <option value="London">London</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Slovakia">Slovakia</option>
+                </select>
+                <!-- <input type="text" id="tPlace" name="tPlace" placeholder="SLOVAKIA"><br><br> -->
+                <br>
+                <br>
+
+                <label for="trans">Type of transport</label><br>
+                <select type="text" id="trans" name="trans" class="text2" placeholder="car">
+                    <option value="Cruise">Cruise</option>
+                    <option value="Flight">Flight</option>
+                    <option value="Train">Train</option>
+                    <option value="Car">Car</option>
+                </select>
+                <!-- <input type="text" id="trans" name="trans" placeholder="car"><br><br> -->
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <input type="submit" value="Submit" id="submit">
+                <br>
+                <br>
+                <br>
+
+            </form>
+        </field>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="fields">
+
+        <table id="rField">
+            <tr class="test">
+                <td>
+                    <img src="Img/HAWAII.jpg" class="pic1">
+                    <p class="t1"> Place Name = US </p>
+                    <p class="t1"> Place Name = Hawaii</p>
+                    <p class="t1"> Type of Transport = Cruise</p>
+                </td>
+            </tr>
+            <tr class="test">
+                <td>
+                    <img src="Img/LONDON.png" class="pic1">
+                    <p class="placename2"> Place Name = UK</p>
+                    <p class="tripPlace2"> Place Name = London</p>
+                    <p class="tof2"> Type of Transport = Flight</p>
+                </td>
+            </tr>
+            <tr class="test">
+                <td>
+                    <img src="Img/PARIS.png" class="pic1">
+                    <p class="placename3"> Place Name = France</p>
+                    <p class="tripPlace3"> Place Name = Paris</p>
+                    <p class="tof3"> Type of Transport = Train</p>
+
+                </td>
+            </tr>
+            <tr class="test">
+                <td>
+                    <img src="Img/SLOVAKIA.png" class="pic1">
+                    <p class="placename4"> Place Name = Europe</p>
+                    <p class="tripPlace4"> Place Name = Slovakia</p>
+                    <p class="tof4"> Type of Transport = Car</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="Java/java.js"></script>
+</body>
+
+</html>
